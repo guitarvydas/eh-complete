@@ -1,0 +1,3 @@
+- concurrency *inside* the components not *outside* the components
+- state-of-the-art operating systems, e.g. Linux, Windows, MacOS, are big state machines that run internally-synchronous units of software ("apps")
+- can we shrink the scale of behemoth operating systems?

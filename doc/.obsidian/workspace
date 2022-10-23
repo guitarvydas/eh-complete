@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "dcf73f62d57228d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f69866468ff03b2c",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1c637e07b7d26d77",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b5b0656dbd81cec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e69231a9d1fc74c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "68f66b663cf193a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ac7f772aa207c525",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a1ef6560c5859761",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce8d9ec85cd3cecb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4de639f20e8499d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "379a01c20b71b7e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5504d6053f15a55d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ef690c372d3bc8ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "5e69231a9d1fc74c",
+  "lastOpenFiles": [
+    "2022-09-11 Eh Overview.md",
+    "notes-20220912.md",
+    "@@@ Start Here.md",
+    "hello world eh-helloworldworld.png",
+    "hello world eh-helloworld.png",
+    "2022-08-21-Notes on Eh.md",
+    "2022-08-21-Eh Pluggable Software Components.md",
+    "2022-06-04-Fire and Forget.md",
+    "2022-05-30-Fire and Forget.md",
+    "2022-07-10-Layered Programming - New-Breed Structured Programming.md"
+  ]
+}

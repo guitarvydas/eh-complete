@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+textarea {
+}
+</style>
+</head>
+<body>
+
+<h1>Drawing Transpiler (consolidated version)</h1>
+<h2> all code in one file (see eh.html for original source - more readable) </h2>
+
+<button onclick="generate ()">Generate</button>
+
+<br>
+<p id="status" > READY </p>
+<br>
+
+<p>JSON:</p>
+<textarea id="drawio" rows="7" cols="120" placeholder="drawio file" style="background-color:oldlace;">
+</textarea>
+
+
+<p>output: Python, Lisp</p>
+<textarea id="pyoutput" rows="20" cols="80" placeholder="python" style="font-size: 6pt;background-color:oldlace;">
+</textarea>
+<textarea id="cloutput" rows="20" cols="180" placeholder="common lisp" style="font-size: 6pt;background-color:oldlace;">
+</textarea>
+
+<textarea id="input" hidden rows="20" cols="120" placeholder="input to last item in pipeline" style="background-color:oldlace;">
+</textarea>
+
+
+<br>
+<br>
+<br>
+
+<!-- Ohm-JS -->
+<script src="https://unpkg.com/ohm-js@16/dist/ohm.min.js"></script>
+
+<script src="eh-body.js"></script>
+<script>
+
+  
+  function test (src, grammarName, grammar, fmt) {
+      document.getElementById('input').innerHTML = src;      
+      [success, transpiled, errormessage] = transpile (src, grammarName, grammar, fmt, ohm);
+      if (success) {
+          document.getElementById('status').innerHTML = "OK";
+	  return [true, transpiled];
+      } else {
+          document.getElementById('status').innerHTML = "FAILED " + grammarName + ' ' + errormessage;
+	  return [false, errormessage];
+      }
+  }
+
+  function generate () {
+      src = jsonsrc;
+      document.getElementById('drawio').innerHTML = src;
+
+// Information Gatherer ("semantics" passes)
+
+      let r = undefined;
+      let output = '';
+      [r, output] = test (src, "DaS", dasgrammar, dasfmt);
+      r && ([r, output] = test (output, "SelfReplacer", gSelfreplacer, fSelfreplacer));
+      
+// Code Emitter
+
+      var transformedCode = output;
+
+      var pyCode = emitPython (transformedCode);
+      document.getElementById('pyoutput').value = pyCode;
+      
+/*
+      var lispCode = emitCommonLisp (transformedCode);
+      document.getElementById('cloutput').value = lispCode;
+*/
+      
+  }
+
+function dump (s) {
+}
+
+function cl_dump (s) {
+}
+
+  </script>
+</body>
+</html>
+
+

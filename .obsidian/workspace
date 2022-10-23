@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "1f8d79d3be8eb6ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "96bcc6339624f143",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "doc/2022-09-11 Eh Overview.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "145dba4cfef72a1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f60e797d4c9eb5e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94fd3e56600fb6ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "374449ed5df0957e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "72fbdd3f35ffd830",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f2522a5694419891",
+    "type": "split",
+    "children": [
+      {
+        "id": "956aeb10648b6706",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59719d0010dd7242",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "doc/2022-09-11 Eh Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38e23eae59c15b57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "doc/2022-09-11 Eh Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "86a83e65f40b28ab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "167533c4b901f359",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "doc/2022-09-11 Eh Overview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "96bcc6339624f143",
+  "lastOpenFiles": [
+    "doc/@@@ Start Here.md",
+    "doc/Eh - Benefits.md",
+    "doc/structured message passing.png",
+    "doc/2022-09-11 Eh Overview.md",
+    "doc/0D.md",
+    "doc/2022-08-26-notes.md",
+    "doc/2022-08-24-notes.md",
+    "README.md"
+  ]
+}
